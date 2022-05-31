@@ -7,32 +7,36 @@
     display: flex;
     min-height: 100vh;
     font-family: 'Cairo', sans-serif;
-    /* font-family: 'Tajawal', sans-serif; */
 }
 
 .sidebar {
     background-color: #333;
     color: white;
-    padding: 20px;
     width: 250px;
-    /* flex-basis: 250px; */
 }
+.fa-solid, .fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    padding-right: 5px;
+}
+
 
 .sidebar ul {
-    padding: 40px;
+    padding: 10px 15px;
+    padding-top: 50px;
 }
 
-.sidebar ul li{
+.sidebar ul li {
     list-style: none;
-    padding: 35px;
-    font-size: 23px;
+    font-size: 15px;
+    padding-top: 40px;
 }
 
 
-.sidebar span{
-    padding: 73px;
-    font-size: 25px;
+.sidebar span {
+    font-size: 15px;
 }
+
 .content {
     background-color: #eee;
     flex-grow: 1;
@@ -44,11 +48,6 @@
     padding: 10px;
 }
 
-.btn span{
-    font-size: 27px;
-    color: red;
-    cursor: pointer;
-}
 
 /* Cards */
 .cards h3 {
@@ -96,9 +95,7 @@
 
 .area table {
     width: 100%;
-    /* text-align: center; */
     border-spacing: 1px;
-
 }
 
 .area table thead td {
