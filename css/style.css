@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Cairo', sans-serif;
+    /* font-family: 'Tajawal', sans-serif; */
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    width: 250px;
+    /* flex-basis: 250px; */
+}
+
+.sidebar ul {
+    padding: 40px;
+}
+
+.sidebar ul li{
+    list-style: none;
+    padding: 35px;
+    font-size: 23px;
+}
+
+
+.sidebar span{
+    padding: 73px;
+    font-size: 25px;
+}
+.content {
+    background-color: #eee;
+    flex-grow: 1;
+}
+
+/* NavBar */
+.navbar {
+    background-color: white;
+    padding: 10px;
+}
+
+.btn span{
+    font-size: 27px;
+    color: red;
+    cursor: pointer;
+}
+
+/* Cards */
+.cards h3 {
+    margin: 0 0 10px;
+}
+
+.cards ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards ul li {
+    background-color: #f7f7f7;
+    text-align: center;
+    width: calc(95%/ 4);
+    height: 100px;
+    color: #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+
+}
+
+.cards ul li span {
+    display: block;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 5px;
+}
+
+/* Cards Ended*/
+
+
+/* Area */
+.area {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+.area table {
+    width: 100%;
+    /* text-align: center; */
+    border-spacing: 1px;
+
+}
+
+.area table thead td {
+    background-color: rgb(65, 146, 106);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.area table tbody td {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.area table td {
+    padding: 15px;
+    vertical-align: middle;
+}
