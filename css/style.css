@@ -101,31 +101,33 @@ input[type="text"] {
 }
 
 .cards ul li {
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
     text-align: center;
     width: calc(95%/ 4);
-    height: 100px;
-    color: #777;
+    height: 130px;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     align-items: center;
     line-height: 1;
-
+    background-image: linear-gradient(to left,#0162e880,#0161e8f1);
+    border-radius: 3px;
 }
 
 .cards ul li span {
     display: block;
     font-size: 40px;
     font-weight: bold;
-    color: black;
+    /* color: black; */
     margin-bottom: 5px;
 }
+
 /* Cards Ended*/
 
 
 /* Area */
 .area {
-    background-color: white;
+    /* background-color: white; */
     padding: 20px;
     margin: 20px;
 }
@@ -143,8 +145,9 @@ input[type="text"] {
 }
 
 .area table tbody td {
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
     text-align: center;
+    background-color: white;
 }
 
 .area table td {
