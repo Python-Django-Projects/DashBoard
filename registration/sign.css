@@ -9,7 +9,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #eee;
+    background-color:#4070f4;
 }
 
 .container{
@@ -38,12 +38,12 @@ body{
     bottom: 0;
     height: 3px;
     width: 30px;
-    background-color:rgb(210, 208, 208);
+    background-color:#4070f4;
     border-radius: 25px;
 }
 
 .form .input-field{
-    background-color: rgb(148, 35, 35);
+    /* background-color: rgb(148, 35, 35); */
     position: relative;
     height: 50px;
     width: 100%;
@@ -53,4 +53,56 @@ body{
 .input-field input{
     height: 100%;
     width: 100%;
+    position: absolute;
+    padding: 0 35px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    border-bottom: 0.5px solid #ccc;
+    border-top: 0.5px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.input-field input:is(:focus, :valid){
+    border-bottom-color: #4070f4;
+}
+
+.input-field i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 23px;
+    transition: all 0.2s ease;
+}
+
+.input-field i.icon{
+    left: 0;
+}
+.input-field i.showHidePw{
+    right: 0;
+}
+
+.input-field input:is(:focus, :valid) ~ i{
+    color: #4070f4;
+}
+
+.form .checkbox-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.checkbox-text .checkbox-content{
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-content input{
+accent-color: #4070f4;
+margin: 0 8px -2px 4px;
+}
+
+.form a {
+    text-decoration: none;
 }
