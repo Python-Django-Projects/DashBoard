@@ -1,48 +1,48 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#4070f4;
+    background-color: #4070f4;
 }
 
-.container{
+.container {
     position: relative;
     max-width: 430px;
     width: 100%;
     background-color: white;
-    box-shadow: 0 5px 10px rgba(0,0,0,0);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
     border-radius: 10px;
 }
 
-.container .form{
+.container .form {
     padding: 30px;
 }
 
-.container .form .title{
+.container .form .title {
     position: relative;
     font-size: 27px;
     font-weight: 600;
 }
 
-.form .title::before{
+.form .title::before {
     content: '';
     position: absolute;
     left: 0;
     bottom: 0;
     height: 3px;
     width: 30px;
-    background-color:#4070f4;
+    background-color: #4070f4;
     border-radius: 25px;
 }
 
-.form .input-field{
+.form .input-field {
     /* background-color: rgb(148, 35, 35); */
     position: relative;
     height: 50px;
@@ -50,7 +50,7 @@ body{
     margin-top: 30px;
 }
 
-.input-field input{
+.input-field input {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -63,7 +63,7 @@ body{
     transition: all 0.2s ease;
 }
 
-.input-field input:is(:focus, :valid){
+.input-field input:is(:focus, :valid) {
     border-bottom-color: #4070f4;
 }
 
@@ -75,34 +75,77 @@ body{
     transition: all 0.2s ease;
 }
 
-.input-field i.icon{
+.input-field i.icon {
     left: 0;
 }
-.input-field i.showHidePw{
+
+.input-field i.showHidePw {
     right: 0;
+    cursor: pointer;
+    padding: 10px;
 }
 
-.input-field input:is(:focus, :valid) ~ i{
+.input-field input:is(:focus, :valid)~i {
     color: #4070f4;
 }
 
-.form .checkbox-text{
+.form .checkbox-text {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.checkbox-text .checkbox-content{
+.checkbox-text .checkbox-content {
     display: flex;
     align-items: center;
 }
 
-.checkbox-content input{
-accent-color: #4070f4;
-margin: 0 8px -2px 4px;
+.checkbox-content input {
+    accent-color: #4070f4;
+    margin: 0 8px -2px 4px;
+}
+
+.form .text {
+    color: #333;
+    font-size: 14px;
+}
+
+.form a.text {
+    color: #4070f4;
+    text-decoration: none;
 }
 
 .form a {
     text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
+
+.form .button {
+    margin-top: 35px;
+
+}
+
+.form .button input {
+    border: none;
+    background-color: #4070f4;
+    color: white;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button input:hover {
+    background-color: #265df2;
+}
+
+.form .login-signup {
+    margin-top: 25px;
+    text-align: center;
 }
