@@ -1,12 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700&family=Tajawal:wght@200;300;400;500;800&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    Orders Page
+    <div class="page">
+        <div class="sidebar">
+            <div class="admin">Admin</div>
+
+
+            <ul>
+                <a href="index.html">
+                    <li><i class="fa-solid fa-chart-column"></i> DashBoard</li>
+                </a>
+                <a href="orders.html">
+                    <li><i class="fa-solid fa-briefcase"></i> Orders</li>
+                </a>
+                <a href="clients.html">
+                    <li><i class="fa-solid fa-address-book"></i> Clients</li>
+                </a>
+                <a href="inventory.html">
+                    <li><i class="fa-solid fa-boxes-packing"></i> Inventory</li>
+                </a>
+                <a href="staff.html">
+                    <li><i class="fa-solid fa-users"></i> Staffs</li>
+                </a>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="navbar">
+
+                <i class="fa-solid fa-align-justify"></i>
+                <i class="fa-solid fa-circle-xmark"></i>
+
+                <input type="text" placeholder="Search...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+
+                <!-- <button class="btn">Search</button> -->
+                <span>
+
+                    <a href="registration/sign.html">Register</a>
+                    <i class="fa-solid fa-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                    <i class="fa-solid fa-envelope"></i>
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-solid fa-gear"></i>
+
+                </span>
+
+            </div>
+            <div class="area cards">
+                <ul>
+                    <li class="client">
+                        <div><span>100</span> Clients</div>
+                    </li>
+                    <li class="items">
+                        <div><span>500</span> Items</div>
+                    </li>
+                    <li class="countries">
+                        <div><span>15</span> Inventories</div>
+                    </li>
+                    <li class="orders">
+                        <div><span>88</span> Orders</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="area ">
+                <table>
+                    <thead>
+                        <tr>
+                            <td>#</td>
+                            <td>Name</td>
+                            <td>Amount</td>
+                            <td>Orders</td>
+                            <td>Price</td>
+                            <td>Section</td>
+                            <td>Employee</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>01</td>
+                            <td>Boxes</td>
+                            <td>100</td>
+                            <td>5</td>
+                            <td>70$</td>
+                            <td>Packing</td>
+                            <td>Mohammed</td>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>Boxes</td>
+                            <td>100</td>
+                            <td>5</td>
+                            <td>70$</td>
+                            <td>Packing</td>
+                            <td>Mohammed</td>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>Boxes</td>
+                            <td>100</td>
+                            <td>5</td>
+                            <td>70$</td>
+                            <td>Packing</td>
+                            <td>Mohammed</td>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>Boxes</td>
+                            <td>100</td>
+                            <td>5</td>
+                            <td>70$</td>
+                            <td>Packing</td>
+                            <td>Mohammed</td>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>Boxes</td>
+                            <td>100</td>
+                            <td>5</td>
+                            <td>70$</td>
+                            <td>Packing</td>
+                            <td>Mohammed</td>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>Boxes</td>
+                            <td>100</td>
+                            <td>5</td>
+                            <td>70$</td>
+                            <td>Packing</td>
+                            <td>Mohammed</td>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>Boxes</td>
+                            <td>100</td>
+                            <td>5</td>
+                            <td>70$</td>
+                            <td>Packing</td>
+                            <td>Mohammed</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>

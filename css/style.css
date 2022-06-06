@@ -58,6 +58,11 @@ input[type="text"]:focus{
     color: white;
     width: 250px;
 }
+.sidebar ul li:hover {
+    background: rgb(235, 239, 249);
+    color: black;
+    border-radius: 50px 0px 0px 50px;
+}
 
 
 .fa-solid, .fas {
@@ -68,15 +73,13 @@ input[type="text"]:focus{
 
 
 .sidebar ul {
-    padding: 10px 15px;
-    padding-top: 50px;
+   padding:50px 0px 0px 20px;
 }
 
 .sidebar ul li {
     list-style: none;
-    font-size: 15px;
-    padding-top: 40px;
     color: white;
+    padding: 7px;
 }
 
 
