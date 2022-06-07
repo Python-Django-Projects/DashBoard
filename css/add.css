@@ -65,9 +65,10 @@ button {
     margin-top: 15px;
     width: 120px;
     color: white;
-    background-color: rgb(64, 205, 159);
+    background-color: rgb(7, 179, 156);
     border: 0px;
     font-size: 19px;
     border-radius: 3px;
+    cursor: pointer;
 }
 /*72*/
