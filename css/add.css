@@ -60,3 +60,14 @@ input.discription{
 .txt:focus{
 outline: none;
 }
+button {
+    padding: 15px;
+    margin-top: 15px;
+    width: 120px;
+    color: white;
+    background-color: rgb(64, 205, 159);
+    border: 0px;
+    font-size: 19px;
+    border-radius: 3px;
+}
+/*72*/
