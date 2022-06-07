@@ -5,18 +5,18 @@
 }
 
 .add_form{
-    height: 500px;
+    min-height: 100vh;
     width: 93%;
-    margin: 50px auto;
+    margin: 30px auto;
 }
 
 
 form{
     padding: 20px;
     width: 100%;
-background-color: #4076af;
+    /* background-color: #4076af; */
     border-radius: 3px;
-    color: white;
+    color: black;
 }
 
 
@@ -31,7 +31,7 @@ input[type="text"] {
     display: table;
     border-radius: 3px;
     height: 40px;
-    border: 0px;
+    border: 0.5px solid #b0b0b0;
     width: 300px;
     font-size: 19px;
 }
@@ -55,6 +55,7 @@ input.discription{
     height: 200px;
     width: 50%;
     font-size: 19px;
+    border: 0.5px solid #b0b0b0;
 }
 .txt:focus{
 outline: none;
