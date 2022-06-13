@@ -29,6 +29,9 @@
 .change .navbar a{
     color: white;
 }
+.change img {
+    color: white;
+}
 .change .sidebar{
     background-color: black;
 }
@@ -47,6 +50,11 @@ a{
 i.fa-solid.fa-magnifying-glass{
     margin-left: -40px;
 }
+.change i.fa-solid.fa-magnifying-glass{
+    margin-left: -40px;
+    color: black;
+}
+
 
 .navbar input[type="text"] {
     padding: 10px;
@@ -291,3 +299,27 @@ button {
     cursor: pointer;
 }
 /*72*/
+
+
+/* .fa-gear{
+    color: red;
+    animation: spin 3s linear infinite;
+ }
+
+ @keyframes spin {
+     100%{transform: rotate(1800deg);}
+ } */
+
+ 
+ img{
+    animation: spin 1s linear infinite;
+    height: 15px;
+    margin-right: 15px;
+}
+.change img{
+   filter: invert(298%) sepia(152%) saturate(659%) hue-rotate(300deg) brightness(94%) contrast(245%);; 
+    }
+
+@keyframes spin {
+    100%{ transform: rotate(180deg);}
+}
