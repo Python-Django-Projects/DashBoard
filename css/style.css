@@ -106,7 +106,7 @@ input[type="text"]:focus{
 
 
 .sidebar ul {
-   padding:50px 0px 0px 20px;
+   padding:50px 0px 0px 10px;
 }
 
 .sidebar ul li {
@@ -322,4 +322,8 @@ button {
 
 @keyframes spin {
     100%{ transform: rotate(180deg);}
+}
+
+ul a li i {
+    margin-right: 15px;
 }
